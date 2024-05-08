@@ -1,0 +1,63 @@
+html {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.header__navigation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 2rem;
+}
+
+.header__navigation_menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: flex-end;
+    list-style: none;
+}
+
+.menu-item__link {
+    text-decoration: none;
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    justify-self: flex-end;
+    gap: 1rem;
+}
+.button-container__button {
+    width: 8rem;
+    height: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    white-space:nowrap;
+}
+.button_login {
+    background-color: #F4F5A7;
+    border: none;
+}
+.button_trial {
+    background-color: #242424;
+    color: white;
+}
+
+.page-cover {
+    margin: 10%;
+    text-align: center;
+}
+
+.page-cover__title {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.page-cover__button {
+    background-color: #242424;
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    margin-top: 3rem;
+}
